@@ -59,7 +59,7 @@ def create_rfm_df(df):
     return rfm_df
 
 # Memanggil cleaned data
-all_df = pd.read_csv("all_data.csv")
+all_df = pd.read_csv("https://raw.githubusercontent.com/littleowl008/Proyek-Data-Analisis-Dicoding/main/dashboard/all_data.csv")
 
 
 datetime_columns = ["order_purchase_timestamp", "order_delivered_customer_date"]
